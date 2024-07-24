@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: template
+  datasource:
+    url: jdbc:mysql://localhost:3306/apply?useSSL=false&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: gutenlee
+    password: 1128
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+      format_sql: true
